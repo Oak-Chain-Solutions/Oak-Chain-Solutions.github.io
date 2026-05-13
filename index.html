@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oak Chain Solutions - Web Development Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">OCS</a>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Intro Section with Flexbox -->
+    <section class="intro">
+        <div class="intro-container">
+            <div class="box box-large">
+                <h2>About Oak Chain Solutions</h2>
+                <hr>
+                <br>
+                <p>Oak Chain Solutions is a web development agency focused on building scalable, secure, and high-performance digital products. We specialize in modern full-stack development with Next.js, React, Node.js, Express.js, JavaScript, Python, PostgreSQL, and RESTful APIs. We create fast, reliable, and data-driven solutions for startups and businesses. From responsive frontend interfaces to secure backend architectures, we turn complex workflows into efficient, user-friendly products.</p>
+            </div>
+            <div class="box box-small image-box">
+                <img src="./assets/Oak Chain Solutions Logo.PNG" alt="Oak Chain Solutions" class="profile-photo">
+                <h3>Oak Chain Solutions</h3>
+                <p>Web Development Agency</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Carousel Section -->
+    <section class="carousel-section">
+        <h2 class="section-title">Our Tech Stack</h2>
+        <div class="carousel-container">
+            <div class="carousel-track">
+                <div class="carousel-slide">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                    <p>React</p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="ExpressJS">
+                    <p>ExpressJS</p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="NextJS">
+                    <p>NextJS</p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL">
+                    <p>PostgreSQL</p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="NodeJS">
+                    <p>Node.js</p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                    <p>Python</p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+                    <p>MongoDB</p>
+                </div>
+                <!-- Duplicate for seamless loop -->
+                <div class="carousel-slide">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                    <p>React</p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="ExpressJS">
+                    <p>ExpressJS</p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="NextJS">
+                    <p>NextJS</p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL">
+                    <p>PostgreSQL</p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="NodeJS">
+                    <p>Node.js</p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                    <p>Python</p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+                    <p>MongoDB</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Our Portfolio</h2>
+            <div class="portfolio-grid">
+                <!-- Jobsite -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image-placeholder">
+                        <img src="./assets/Oak Jobs-logo.png" alt="Oak Jobs" class="portfolio-img">
+                    </div>
+                    <h3>Oak Jobsite</h3>
+                    <p>A niche job board for NGOs and aid organizations. Find paid roles in program management, fundraising, logistics, and communications — searchable by country, salary, and cause area.</p>
+                    <a href="https://oakjobs.online/" target="_blank" class="btn">View Jobsite</a>
+                </div>
+
+                <!-- Invoice & Billing System -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image-placeholder">
+                        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&fit=crop" alt="Invoice System" class="portfolio-img">
+                    </div>
+                    <h3>Invoice & Billing System</h3>
+                    <p>Professional invoice management system with PDF generation. Enables businesses to create, track, and manage client invoices with automatic payment status tracking.</p>
+                    <p><strong>Stack:</strong> Next.js, PostgreSQL, React-PDF</p>
+                    <a href="https://invoice-system-jet.vercel.app/" target="_blank" class="btn">View Project</a>
+                </div>
+
+                <!-- Appointment Booking System -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image-placeholder">
+                        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=600&h=400&fit=crop" alt="Appointment System" class="portfolio-img">
+                    </div>
+                    <h3>Appointment Booking System</h3>
+                    <p>Online scheduling platform with weekly calendar view. Prevents double-booking and allows clients to book services based on real-time availability.</p>
+                    <p><strong>Stack:</strong> Next.js, PostgreSQL, Custom Calendar</p>
+                    <a href="https://appointment-system-three-rho.vercel.app/" target="_blank" class="btn">View Project</a>
+                </div>
+
+                <!-- Inventory Management System -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image-placeholder">
+                        <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&h=400&fit=crop" alt="Inventory System" class="portfolio-img">
+                    </div>
+                    <h3>Inventory Management System</h3>
+                    <p>Complete stock tracking system with low stock alerts, supplier management, and Naira currency support. Tracks all stock movements with audit trail.</p>
+                    <p><strong>Stack:</strong> Next.js, PostgreSQL, Stock Tracking</p>
+                    <a href="https://inventory-system-alpha-topaz.vercel.app/" target="_blank" class="btn">View Project</a>
+                </div>
+
+                <!-- School Management System -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image-placeholder">
+                        <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7" alt="School Management System" class="portfolio-img">
+                    </div>
+                    <h3>School Management System</h3>
+                    <p>Comprehensive school administration platform. Manages student enrollment, class assignments, daily attendance tracking, and student records.</p>
+                    <p><strong>Stack:</strong> Next.js, PostgreSQL, Attendance System</p>
+                    <a href="https://school-ms-neon.vercel.app/" target="_blank" class="btn">View Project</a>
+                </div>
+
+                <!-- CRM System -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image-placeholder">
+                        <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y3VzdG9tZXIlMjByZWxhdGlvbnNoaXAlMjBtYW5hZ2VtZW50fGVufDB8fDB8fHww" alt="CRM System" class="portfolio-img">
+                    </div>
+                    <h3>CRM System</h3>
+                    <p>Customer Relationship Management system with sales pipeline. Track companies, contacts, and deals through a visual Kanban board from lead to closed won.</p>
+                    <p><strong>Stack:</strong> Next.js, PostgreSQL, Kanban Pipeline</p>
+                    <a href="https://crm-system-five-lovat.vercel.app/" target="_blank" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Oak Chain Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
